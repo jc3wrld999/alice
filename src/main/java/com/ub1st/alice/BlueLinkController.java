@@ -295,7 +295,7 @@ public class BlueLinkController {
 	public JSONObject battery(@RequestHeader(required = true) Map<String, String> data, @RequestParam MultiValueMap<String, String> param, @PathVariable(value = "vin") String vin) {
 
 		JSONObject requestMap = new JSONObject();
-		System.out.println(data.toString());
+//		System.out.println(data.toString());
 		if(data.get("authorization")==null||data.get("adminkey")==null||data.get("content-type")==null) { // header null check
 			
 			requestMap.put("errCode","4016");
