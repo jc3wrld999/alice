@@ -24,14 +24,10 @@ task print() {
 	}
 }
 
-bootJar {
-	mainClassName = "com.ub1st.alice.AliceApplication"
+springBoot {
+	mainClass = "com.ub1st.alice.AliceApplication"
 }
 
-bootRun {
-	String activeProfile = System.properties['spring.profiles.active']
-	systemProperty "spring.profiles.active", activeProfile
-}
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
