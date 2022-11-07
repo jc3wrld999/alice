@@ -25,7 +25,7 @@ task print() {
 }
 
 bootJar {
-	mainClassName = "com.ub1st.alice.AliceApplication.java"
+	mainClassName = "com.ub1st.alice.AliceApplication"
 }
 
 bootRun {
