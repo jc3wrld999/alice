@@ -324,7 +324,7 @@ public class BlueLinkController {
 			
 		} else {
 			
-			System.out.println(data.toString());
+//			System.out.println(data.toString());
 			System.out.println(data.get("authorization"));
 			System.out.println(data.get("adminkey"));
 			System.out.println(data.get("content-type"));
