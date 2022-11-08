@@ -4,3 +4,5 @@ spring:
   devtools:
     livereload:
       enabled: "true"
+server:
+  port: 7080
