@@ -24,7 +24,7 @@ task print() {
 	}
 }
 
-springBoot {
+bootJar {
 	mainClass = "com.ub1st.alice.AliceApplication"
 }
 
